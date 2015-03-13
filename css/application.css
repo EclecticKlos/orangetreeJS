@@ -1,0 +1,34 @@
+.display-tree-small{
+  background: url('../images/tree.jpeg');
+  background-repeat: no-repeat;
+  height:200px;
+  width:200px;
+  border: solid black 2px;
+}
+
+.display-tree-big{
+  background: url('../images/tree_big.jpg');
+  background-repeat: no-repeat;
+  height:1000px;
+  width:1000px;
+  border: solid black 2px;
+  z-index: 1;
+}
+
+#display-orange-fruit{
+  background: url('../images/orange.gif');
+  background-repeat: no-repeat;
+  opacity: 1;
+  z-index: 2;
+  position: absolute;
+  height:48px;
+  width:48px;
+  top: 500px;
+  left: 500px;
+}
+
+#orange-tree-template { visibility: hidden; }
+
+#orange-fruit {visibility: hidden;}
+
+/* Add more styles here*/
